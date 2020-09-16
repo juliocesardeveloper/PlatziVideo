@@ -1,0 +1,42 @@
+.main {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.main__input {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  height: 40px;
+  padding: 0px 40px;
+  width: 70%;
+  outline: unset;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}

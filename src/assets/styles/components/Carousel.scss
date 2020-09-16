@@ -1,0 +1,26 @@
+.carrusel {
+  overflow: auto;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.carrusel__container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+
+.carrusel-item:hover ~ .carrusel-item {
+  transform: translate3d(100px, 0, 0);
+}
+
+.carrusel__container:hover .carrusel-item {
+  opacity: 0.3;
+}
+
+.carrusel__container:hover .carrusel-item:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
